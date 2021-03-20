@@ -5,7 +5,7 @@ import { CardList } from './components/card-list/card-list.component'
 import { SearchBox } from './components/search-box/search-box.component'
 
 const App = () => {
-  const [players, setplayers] = useState[
+  const [players, setPlayers] = useState([
     {name:'Virat Kohli', email: 'viratkohli18@gmail.com', number: '18'},
     {name:'Rohit Sharma', email: 'rohitsharma45@gmail.com', number: '45'},
     {name:'Ravichandran Ashwin', email: 'rashwin99@gmail.com', number: '99'},
@@ -17,7 +17,7 @@ const App = () => {
     {name:'Jasprit Bumrah', email: 'jaspritbumrah93@gmail.com', number: '93'},
     {name:'Washington Sundar', email: 'washingtonsundar55@gmail.com', number: '55'},
     {name:'Shikhar Dhawan', email: 'shikhardhawan42@gmail.com', number: '42'}
-  ]
+  ])
 
   const [searchField, setSearchField] = useState('')
 
